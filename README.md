@@ -140,19 +140,24 @@ The agent generates charts using Python and saves them as images.
 
 ---
 
- Future Improvements
+Week 3 – Sandbox Execution
 
-* Support for multiple CSV files
-* Web interface using Streamlit
-* Data visualization
-* Export analysis results
+In Week 3, a secure sandbox environment was implemented.
 
----
+Features:
+- AI generated code is checked before execution
+- Dangerous commands are blocked
+- Code runs in a restricted environment
+- Improves security and reliability of the system
 
- Author
+----
 
-Created by Rinshad CR
+Week 4 – Web Interface
 
----
+In Week 4, a web interface was built using Streamlit.
 
- 
+Features:
+- Upload CSV file
+- Ask questions about dataset
+- Generate charts
+- Interactive web interface
