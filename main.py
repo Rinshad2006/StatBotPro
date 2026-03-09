@@ -1,3 +1,4 @@
+from sandbox_runner import run_code_safely
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
@@ -80,7 +81,7 @@ while True:
     if question.lower() == "exit":
         break
 
-    if "chart" in question or "graph" in question:
+    if "chart" in question.lower() or "graph" in question.lower():
         path = create_revenue_chart(df)
         print(f"Chart saved at: {path}")
 
