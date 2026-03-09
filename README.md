@@ -115,6 +115,27 @@ LLM Ready
 Agent Ready
 
 Ask a question about the CSV:
+
+Week 2 – Data Visualization 📊
+
+In Week 2, the StatBotPro project was enhanced with data visualization capabilities.
+
+Features added:
+
+- The AI agent can now generate charts from the CSV dataset.
+- Uses **Matplotlib** for plotting graphs.
+- The agent automatically runs Python code to analyze and visualize data.
+- Charts can be generated using natural language queries.
+
+Example prompts:
+
+- "Show first 5 rows"
+- "Plot the distribution of sales"
+- "Create a bar chart of the Region column"
+
+Example output:
+
+The agent generates charts using Python and saves them as images.
 ```
 
 ---
